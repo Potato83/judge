@@ -1,0 +1,50 @@
+@define-mixin atSmallBg {
+	@media (min-width: 350px){
+		@mixin-content;
+	}
+}
+
+@define-mixin atSmall {
+	@media (min-width: 630px){
+		@mixin-content;
+	}
+}
+
+@define-mixin atMedium {
+	@media (min-width: 900px){
+		@mixin-content;
+	}
+}
+
+@define-mixin atLarge {
+	@media (min-width: 1010px){
+		@mixin-content;
+	}
+}
+
+@define-mixin atIpad {
+	@media (width: 1024px){
+		@mixin-content;
+	}
+}
+
+@define-mixin atLargeBg {
+	@media (min-width: 1300px){
+		@mixin-content;
+	}
+}
+
+@define-mixin atHuge {
+	@media (min-width: 1600px){
+		@mixin-content;
+	}
+}
+
+@define-mixin clearfix{
+	&::after{
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+

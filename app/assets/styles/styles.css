@@ -1,0 +1,16 @@
+@import "normalize.css";
+/*@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";*/
+/*@import "../../../node_modules/bootstrap";*/
+
+/*@import "bootstrap";*/
+
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global";
+
+@import "modules/_navbar";
+@import "modules/_carousel";
+
+@import "../../../node_modules/font-awesome/css/font-awesome.css";
+
+/* ../fonts/glyphicons-halflings-regular */
