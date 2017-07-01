@@ -42,11 +42,11 @@ gulp.task('fontawesomeCopy', ['copyGeneralFiles'], function(){
 
 gulp.task('optimizeImages', ['deleteDistFolder', 'styles', 'scripts'], function(){
 	return gulp.src('./app/assets/img/**/*')
-		.pipe(imagemin({
-			progressive: true,
-			interlaced: true,
-			multipass: true
-		}))
+		// .pipe(imagemin({
+		// 	progressive: true,
+		// 	interlaced: true,
+		// 	multipass: true
+		// }))    //something wrong with imagemin - throws error
 		.pipe(gulp.dest('./dist/assets/img'));
 });
 
