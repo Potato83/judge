@@ -36,6 +36,18 @@ p.cap:hover{
 	transition: opacity 0.33s;
 }
 
+.cat{
+	background: rgba(255,255,255,0.5);
+	padding: 3px 5px;
+	border-radius: 3px;
+	position: relative;
+	top: 5px;
+}
+
+.thumb{
+	display: none;
+}
+
 .image{
 	display: inline;
 	width: 250px;

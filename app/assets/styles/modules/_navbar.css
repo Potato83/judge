@@ -1,0 +1,28 @@
+#second-nav{
+	bottom: 50px;
+	background: #1c1c1c;
+	border-bottom: 2px solid #111;
+	z-index: 200;
+}
+
+@media(max-width: 372px){
+	#brand{
+		font-size: 14px;
+	}
+}
+
+/*.no-collapse{
+	display: block !important;
+}
+
+.spread>li, .spread{
+	float: left !important;
+}
+
+.spread:last-child {
+  margin-right: -15px !important;
+}
+
+.spread {
+  float: right!important;
+}*/
