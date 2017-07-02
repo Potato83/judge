@@ -10,7 +10,7 @@ browserSync = require('browser-sync').create();
 gulp.task('previewDist', function(){
 	browserSync.init({
 
-		notify: true,
+		notify: false,
 		server: {
 			baseDir: "dist"
 		}
@@ -57,7 +57,7 @@ gulp.task('useminTrigger', ['deleteDistFolder'], function(){
 gulp.task('usemin', function(){
 	return gulp.src('./app/*.html')
 		.pipe(usemin({
-			css: [function(){return rev()}, function(){return cssnano()}],
+			css: [function(){return rev()}, function(){return cssnano({zindex: false})}],
 			js: [function(){return rev()}, function(){return uglify()}]
 		}))
 		.pipe(gulp.dest('./dist'));
