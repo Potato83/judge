@@ -1,0 +1,57 @@
+h3.gall-info{
+	font-size: 1.3em !important;
+}
+
+.image{
+	/*width: 250px;
+	height: 167px;*/
+	display: inline-block;
+	z-index: 100;
+	position: relative;
+}
+
+p.cap{
+	position: absolute;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	left: 0px;
+	/*bottom: -100px;*/
+	/*top: 20px;*/
+	/*bottom: 0;*/
+	top: -75px;
+	z-index: 200;
+	margin: 0;
+	padding: 20px 10px 0 30px;
+	text-align: left;
+	font-size: 16px;
+	height: 167px;
+	opacity: 0;
+	color: #fff;
+	transition: opacity 0.33s;
+
+}
+
+p.cap:hover{
+	opacity: 1;
+	transition: opacity 0.33s;
+}
+
+.image{
+	display: inline;
+	width: 250px;
+	height: 290px;
+}
+
+.links{
+	/*background: green;*/
+	width: 250px;
+	display: inline-block;
+	padding: 20px 0;
+	margin: 2px;
+}
+
+.main-gall{
+	/*background: red;*/
+	margin: 20px auto;
+	text-align: center;
+}

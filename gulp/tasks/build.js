@@ -10,7 +10,7 @@ browserSync = require('browser-sync').create();
 gulp.task('previewDist', function(){
 	browserSync.init({
 
-		notify: false,
+		notify: true,
 		server: {
 			baseDir: "dist"
 		}

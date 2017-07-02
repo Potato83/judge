@@ -7,6 +7,9 @@ import $ from 'jquery';
 //import './modules/Fader';
 
 import './modules/Test';
+// import './modules/X-lightbox';
+// import 'blueimp-gallery';
+
 
 //import Parallax from 'parallax-scroll';
 
@@ -20,7 +23,16 @@ import './modules/Test';
 // new RevealOnScroll($('.slide'), "70%");
 
 
+// document.getElementById('links').onclick = function (event) {
+// 		console.log('hooowee');
+//     event = event || window.event;
+//     var target = event.target || event.srcElement,
+//         link = target.src ? target.parentNode : target,
+//         options = {index: link, event: event},
+//         links = this.getElementsByTagName('a');
+//     blueimp.Gallery(links, options);
 
+// };
 
 
 
