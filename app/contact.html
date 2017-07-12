@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
   <title>Upper Kennebecasis Timber Framing</title>
   <meta name="keywords" content="Timber Framing New Brunswick | Upper Kennebecasis Timber Frame 
   | Aaron Judge">
@@ -22,9 +23,20 @@
 </head>
 <body>
 
+  <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+      <div class="slides"></div>
+      <h3 class="title gall-info"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+  </div>
+
 <!-- NAVBAR --> 
 
-  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -34,7 +46,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Upper Kennebecasis Timber Framing</a>
+      <a class="navbar-brand" id="brand" href="/">Upper Kennebecasis Timber Framing</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -47,34 +59,23 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>
+  
 
 <!-- END NAVBAR / HEADER -->
 
 <!-- FLEX CONTENT HERE -->
 
-<!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      
-      <div class="carousel-inner" role="listbox">
-        <div class="item slide1 active"> </div>
-        <div class="item slide2"></div>
-        <div class="item slide3"></div>
-        <div class="item slide4"></div>
-        <div class="item slide5"></div>
-        <div class="item slide6"></div>
-      </div>
-
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="fa fa-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="fa fa-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+<div class="contact">
+  <div class="contact-inner">
+    <div class="innermost">
+      <h3>EMAIL</h3>
+    <a href="mailto:judge.aaron@gmail.com">judge.aaron@gmail.com</a>  
+    <h3>PHONE</h3>
+    506-645-9410
     </div>
-<!-- /.carousel -->
+    
+  </div>
+</div>
 
 <!-- END FLEX CONTENT -->
 
@@ -87,6 +88,23 @@
 
   <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="/assets/gall-js/blueimp-gallery.min.js"></script>
+
+<script>
+
+  $('.links').click(function(event){
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+  });
+
+
+
+</script>
   
 </body>
 </html>

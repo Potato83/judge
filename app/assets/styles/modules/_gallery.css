@@ -15,9 +15,6 @@ p.cap{
 	width: 100%;
 	background: rgba(0,0,0,0.8);
 	left: 0px;
-	/*bottom: -100px;*/
-	/*top: 20px;*/
-	/*bottom: 0;*/
 	top: -75px;
 	z-index: 200;
 	margin: 0;
@@ -28,7 +25,6 @@ p.cap{
 	opacity: 0;
 	color: #fff;
 	transition: opacity 0.33s;
-
 }
 
 p.cap:hover{
@@ -52,20 +48,33 @@ p.cap:hover{
 	display: inline;
 	width: 250px;
 	height: 290px;
+	padding: 20px 0;
+	margin: 2px;
+}
+
+.last-image {
+	/*float: left;*/
+	/*margin-bottom: 500px;*/
+	display: block;
+}
+
+.image > a > img{
+	margin-bottom: 10px;
 }
 
 .links{
 	/*background: green;*/
-	width: 250px;
-	display: inline-block;
-	padding: 20px 0;
-	margin: 2px;
+	/*width: 250px;*/ /* set this width when using multiport */
+	/*display: inline-block;*/
+	/*padding: 20px 0;
+	margin: 2px;*/
 }
 
 .main-gall{
 	/*background: red;*/
 	margin: 20px auto;
 	text-align: center;
+	margin-bottom: 80px;
 }
 
 

@@ -1,0 +1,36 @@
+.contact {
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	height: 95vh;
+	display: table;
+	background: url('../../assets/img/_12A9728.jpg');
+	background-size: cover;
+}
+
+.contact-inner{
+	display: table-cell;
+	vertical-align: middle;
+	
+	width: auto;
+	height: auto;
+}
+
+.contact-inner a{
+	color: #363636;
+}
+
+.innermost{
+	background: rgba(255,255,255,0.6);
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 0;	
+	border-radius: 30px;
+}
+
+@media(max-width: 930px){
+	.innermost{
+		width: 90%;
+	}
+}
+

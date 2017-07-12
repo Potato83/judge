@@ -25,29 +25,53 @@
 
 @media(min-width: 768px){
 	.slide1{
-	background: url('../../assets/img/img1-lg.jpg');
+	background: url('../../assets/img/_12A9319.jpg');
 	}
 
 	.slide2{
-		background: url('../../assets/img/img2-lg.jpg');
+		background: url('../../assets/img/_12A9364.jpg');
 	}
 
 	.slide3{
-		background: url('../../assets/img/img3-lg.jpg');
+		background: url('../../assets/img/_12A9369.jpg');
+	}
+
+	.slide4{
+		background: url('../../assets/img/_12A9470.jpg');
+	}
+
+	.slide5{
+		background: url('../../assets/img/_12A9484.jpg');
+	}
+
+	.slide6{
+		background: url('../../assets/img/_12A9728.jpg');
 	}
 }
 
 @media(max-width: 767px){
 	.slide1{
-	background: url('../../assets/img/img1-md-copy.jpg');
+	background: url('../../assets/img/_12A9319_md.jpg');
 	}
 
 	.slide2{
-		background: url('../../assets/img/img2-md-copy.jpg');
+		background: url('../../assets/img/_12A9364_md.jpg');
 	}
 
 	.slide3{
-		background: url('../../assets/img/img3-md-copy.jpg');
+		background: url('../../assets/img/_12A9369_md.jpg');
+	}
+
+	.slide4{
+		background: url('../../assets/img/_12A9470_md.jpg');
+	}
+
+	.slide5{
+		background: url('../../assets/img/_12A9484_md.jpg');
+	}
+
+	.slide6{
+		background: url('../../assets/img/_12A9728_md.jpg');
 	}
 }
 
