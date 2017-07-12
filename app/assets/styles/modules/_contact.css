@@ -34,3 +34,9 @@
 	}
 }
 
+@media(max-width: 400px){
+	.innermost{
+		width: 96%;
+	}
+}
+
