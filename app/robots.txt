@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /author/daryl_admin/
+Disallow: /2017/06/22/hello-world/
+
+
