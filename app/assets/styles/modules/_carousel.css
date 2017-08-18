@@ -1,26 +1,18 @@
 .carousel{
 	height: 100vh;
 	width: 100vw;
+	background: url('../../assets/img/_12A9319.jpg');
+	opacity: 0.1;
 }
 
 .carousel-inner{
-	/*background: red;*/
 	height: 100%;
 	min-width: 100vw;
 	overflow-x: hidden;
 }
 
 .carousel img {
-  /*min-height: 100vh;
-  max-width: none;
-  position: absolute;
-  overflow-x: hidden; */
   width: 100%;
-
-  @mixin atLarge{
-  	/*min-width: 100%;
-  	height: auto;*/
-  }
 }
 
 @media(min-width: 768px){
@@ -30,6 +22,7 @@
 
 	.slide2{
 		background: url('../../assets/img/_12A9364.jpg');
+		opacity: 1;
 	}
 
 	.slide3{
@@ -52,6 +45,7 @@
 @media(max-width: 767px){
 	.slide1{
 	background: url('../../assets/img/_12A9319_md.jpg');
+	opacity: 0;
 	}
 
 	.slide2{
@@ -75,19 +69,16 @@
 	}
 }
 
-
+.dumbo{
+  opacity: 1;
+  transition: opacity 0.25s ease-in !important;
+}
 
 .item{	
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
 }
-
-/*.glyphicon.glyphicon-chevron-right,
-.glyphicon.glyphicon-chevron-left{
-	font-size: 1.8em;
-	font-weight: lighter;
-}*/
 
 .carousel-control{
 	background: transparent;
@@ -114,6 +105,5 @@
 
 .glyphicon.glyphicon-chevron-right,
 .fa.fa-chevron-right{
-	/*left: 30px;*/
 	left: 20px;
 }
