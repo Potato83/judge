@@ -17,3 +17,19 @@
 	top: 30px;
 	font-size: 1.6em;
 }
+
+.demobiz{
+	width: 50%;
+	height: 200px;
+	background: blue;
+	margin: 0 auto;
+
+	@mixin atMedium{
+		background: green;
+	}
+
+	@mixin atLarge{
+		background: red;
+	}
+
+}
