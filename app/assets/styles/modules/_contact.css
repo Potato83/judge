@@ -6,6 +6,12 @@
 	display: table;
 	background: url('../../assets/img/_12A9728.jpg');
 	background-size: cover;
+	opacity: 0.1;
+}
+
+.faded{
+  opacity: 1;
+  transition: opacity 0.25s ease-in !important;
 }
 
 .contact-inner{

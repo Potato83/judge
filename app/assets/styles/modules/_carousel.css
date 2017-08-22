@@ -2,7 +2,7 @@
 	height: 100vh;
 	width: 100vw;
 	background: url('../../assets/img/_12A9319_sm.jpg');
-	opacity: 1;
+	opacity: 0.1;
 
 	@mixin atMedium{
 		background: url('../../assets/img/_12A9319_md.jpg');
@@ -121,9 +121,9 @@
 
 
 
-.dumbo{
+.faded{
   opacity: 1;
-  transition: opacity 3s ease-in !important;
+  transition: opacity 0.25s ease-in !important;
 }
 
 .item{	
